@@ -1,4 +1,0 @@
-ACKNOWLEDGEMENT:
-
-
-I would like to express my sincere gratitude to everyone who supported me throughout the development of this project. I am thankful for the guidance, encouragement, and valuable feedback provided by my teachers and mentors, which helped me improve the quality and functionality of the Library Management System. I also appreciate the support of my classmates, friends, and family members who motivated me during the project. Their continuous encouragement played a significant role in the successful completion of this work. Finally, I acknowledge the online resources and documentation that helped me understand and implement various web technologies used in this project.
