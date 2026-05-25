@@ -1,0 +1,323 @@
+LIBRARY MANAGEMENT SYSTEM
+
+-------------------------------------------------------------------------------------
+
+FULL PROJECT REPORT
+
+
+
+
+
+
+
+
+Title of the Project:
+Library Management System
+
+---------------------------------------------------------------------------------------
+
+Introduction:
+
+The Library Management System (LMS) is a browser‑based application designed to automate and simplify the management of books, members, borrowing, returning, due dates, and late fees. The system is implemented as a single HTML file using HTML, CSS, Bootstrap, and JavaScript. It does not require installation, a database, or a backend server. The LMS provides a clean, professional interface and includes demo data for immediate use.
+
+------------------------------------------------------------------------------------------
+
+Problem Statement:
+
+Traditional library management relies on manual record‑keeping, which leads to:
+Difficulty tracking borrowed and returned books
+Errors in calculating due dates and late fees
+Time‑consuming updates to records
+Lack of centralized information
+No automated history tracking
+
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+
+The Library Management System solves these issues by providing a digital, automated, and user‑friendly solution.
+
+Objectives:
+
+Maintain digital records of books and members
+Automate borrowing and returning
+Calculate due dates and late fees automatically
+Provide editing and deletion of records
+Maintain a complete history log
+Offer a simple and professional interface
+Reduce manual errors and improve efficiency.
+
+-------------------------------------------------------------------------------------------
+
+Scope:
+
+The system is suitable for:
+Schools
+Colleges
+Small libraries
+Coaching centers
+Personal book collections
+
+------------------------------------------------------------------------------------------
+
+The system is designed for small to medium‑scale usage,
+
+
+--------------------
+
+System Requirements,
+
+----------------------------------------------------------------------------
+
+Hardware Requirements:
+
+Any computer or laptop
+Minimum 2 GB RAM
+Modern web browser
+
+-------------------------------------------------------------------------
+
+Software Requirements:
+
+Web browser (Chrome, Edge, Firefox, Safari)
+HTML5 support
+JavaScript support
+Technologies Used
+
+-------------------------------------------------------------------------------
+
+HTML:
+Used to create the structure of the interface.
+
+--------------------------------------------------------------------------------
+
+CSS and Bootstrap:
+Used to create a professional, responsive design.
+
+-------------------------------------------------------------------------------------
+
+JavaScript:
+
+Used to implement all logic, including:
+
+Adding, editing, deleting books
+Adding, editing, deleting members
+Borrowing and returning
+Due date and late fee calculation
+History tracking
+
+
+----------------------------------------------------------------------------------------
+
+
+System Design:
+
+----------------------------------------------------------------
+
+
+
+
+System Architecture Diagram:
+
+
+
++---------------------------+
+|     User Interface        |
+| (HTML + Bootstrap Layout) |
++-------------+-------------+
+              |
+              v
++---------------------------+
+|     Application Logic     |
+|       (JavaScript)        |
++-------------+-------------+
+              |
+              v
++---------------------------+
+|   In-Memory Data Storage  |
+| (Books, Members, History) |
++---------------------------+
+
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+Use Case Diagram:
+
+
+        +----------------+
+        |     Admin      |
+        +----------------+
+          /    |     \
+         /     |      \
+        v      v       v
++-----------+ +-----------+ +-----------+
+| Manage    | | Manage    | | Borrow /  |
+| Books     | | Members   | | Return    |
++-----------+ +-----------+ +-----------+
+
+
+
+-------------------------------------------------------------------------------
+
+
+Data Flow Diagram (Level 0)
+
+
+
+
+          +----------------+
+          |     Admin      |
+          +----------------+
+                 |
+                 v
+        +---------------------+
+        | Library Management  |
+        |      System         |
+        +---------------------+
+         /         |         \
+        v          v          v
+ +---------+  +---------+  +---------+
+ |  Books  |  | Members |  | History |
+ +---------+  +---------+  +---------+
+
+
+
+-----------------------------------------------------------------------------------------
+
+
+
+Features
+
+-------------------------------
+
+Book Management:
+
+Add books
+Edit books
+Delete books
+View all books
+Track available and borrowed copies
+
+------------------------------------------
+
+Member Management:
+
+Add members
+Edit members
+Delete members
+View all members
+Track borrowed books and late fees
+
+----------------------------------------------
+
+Borrowing:
+
+Select member and book
+Assign due date (7 days)
+Reduce available copies
+Add to history
+
+---------------------------------------------
+
+Returning:
+
+Select member and book
+Increase available copies
+Calculate late fees
+Add to history
+
+---------------------------------------
+
+Due Date and Late Fee Calculation:
+
+Due date = 7 days from borrow date
+Late fee = 1 currency unit per day
+
+-------------------------------------------
+
+History Log:
+
+Shows borrow and return events
+Includes date, time, and late fees
+
+----------------------------------------------
+
+Demo Data:
+Includes Indian books and Indian member names.
+
+--------------------------------------------------
+
+
+Advantages:
+
+Easy to use
+No installation required
+Professional interface
+Fast and responsive
+Eliminates manual errors
+Automatic due date and late fee calculation
+Complete transaction history
+
+-----------------------------------------------------
+
+Limitations:
+
+Data resets on page refresh (no database)
+Not suitable for large libraries
+No multi‑user login
+No barcode scanning
+
+-------------------------------------------------
+
+Future Enhancements:
+
+Local storage or database support
+Admin login system
+Cloud backup
+Search and filtering
+Export to PDF or Excel
+Barcode scanning
+Mobile app version
+
+----------------------------------------------------
+
+Testing:
+
+The system was tested for:
+
+Adding, editing, deleting books
+Adding, editing, deleting members
+Borrowing and returning
+Due date and late fee calculation
+Dropdown updates
+History log accuracy
+
+
+
+All modules performed successfully
+
+
+------------------------------------------------------------------------------------------
+
+
+Conclusion:
+
+The Library Management System is a complete, functional, and user‑friendly solution for managing books and members. It automates key library operations such as borrowing, returning, due dates, and late fees. The system is ideal for academic projects, small libraries, and learning purposes. It demonstrates the effective use of HTML, CSS, Bootstrap, and JavaScript to build a real‑world application.
+
+
+------------------------------------------------------------------------------------------
+
+
+References:
+
+Bootstrap Documentation
+JavaScript MDN Documentation
+HTML5 W3Schools Reference
+General knowledge of library workflows
+
+
+-----------------------------------------------------------------------------
+
